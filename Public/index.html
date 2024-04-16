@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enhanced Web Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,8 +20,8 @@
     </header>
     <main>
         <section id="home">
-            <h1>Welcome to My Enhanced Website!</h1>
-            <p>This website is now packed with appealing designs and interactive features.</p>
+            <h1>Welcome to Our Enhanced Website!</h1>
+            <p>This website is now more visually engaging with a modern design.</p>
             <button onclick="showMore()">Learn More</button>
         </section>
         <section id="about">
@@ -29,7 +30,20 @@
         </section>
         <section id="services">
             <h2>Our Services</h2>
-            <p>Explore the wide range of services we offer to our clients.</p>
+            <div class="services-list">
+                <div class="service">
+                    <h3>Web Design</h3>
+                    <p>We provide innovative web design solutions.</p>
+                </div>
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>Custom applications tailored to your needs.</p>
+                </div>
+                <div class="service">
+                    <h3>SEO</h3>
+                    <p>Improve your website's visibility on search engines.</p>
+                </div>
+            </div>
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
@@ -43,9 +57,8 @@
         </section>
     </main>
     <footer>
-        <p>Copyright © 2024 Your Company.</p>
+        <p>Copyright © 2024 Your Company. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
-
